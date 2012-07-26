@@ -1,6 +1,10 @@
 <html>
-<script type="text/javascript" src="jquery-1.6.2.min.js"></script>
-<script type="text/javascript">
+<head>
+	<meta charset="utf-8"/>
+	<title></title>
+
+	<script type="text/javascript" src="jquery-1.6.2.min.js"></script>
+	<script type="text/javascript">
 	$(document).ready(function(){
          	$("tr:odd").live('click', function(){
 			var rowIndex = $('tr').index(this);
@@ -20,10 +24,7 @@
 		});
         });
 
-</script>
-<head>
-	<meta charset="utf-8"/>
-	<title></title>
+	</script>
 	<style>
 	fieldset {
 		color:#000000; 
