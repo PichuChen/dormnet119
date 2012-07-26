@@ -72,7 +72,7 @@
 
 					<div class="input_type25em">
 						<p>
-							<input name="input_email" placeholder="連絡信箱..." title="連絡信箱" maxlength="50" />
+							<input type="email" name="input_email" placeholder="連絡信箱..." title="連絡信箱" maxlength="50" />
 							*
 							<span>
 								<br />
@@ -123,7 +123,7 @@
 					<h2>電腦設定</h2>
 					<div class="input_type25em">
 						<p>
-							<input name="input_ip" placeholder="報修 IP 位址 (IPv4)..." title="報修 IP 位址 (IPv4)" maxlength="15" />
+							<input name="input_ip" placeholder="報修 IP 位址 (IPv4)..." title="報修 IP 位址 (IPv4)" maxlength="15" pattern="\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\"/>
 							*
 							<span>
 								<br />
