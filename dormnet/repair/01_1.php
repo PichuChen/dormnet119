@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta charset="utf-8" />
 	<!-- TemplateBeginEditable name="doctitle" -->
 	<title>Dorm-net 119</title>
 	<!-- TemplateEndEditable -->
 	<!-- TemplateBeginEditable name="head" -->
 	<!-- TemplateEndEditable -->
-	<link href="./css/main.css" rel="stylesheet" type="text/css" />
+	<link href="./css/main.css" rel="stylesheet"  />
 	<!-- Include JavaScripts -->
-	<script type="text/javascript" src="./scripts/jquery-1.7.2.min.js"></script>
-	<script type="text/javascript" src="./scripts/main.js"></script>
+	<script src="./scripts/jquery-1.7.2.min.js"></script>
+	<script src="./scripts/main.js"></script>
 </head>
 
 <body>
@@ -19,7 +19,7 @@
 <canvas height="300px">
 	<p>Your browser doesn't support HTML5. Try using Firefox or Chrome.</p>
 </canvas>
-<script type="text/javascript" src="./scripts/bg.js"></script>
+<script src="./scripts/bg.js"></script>
 
 <div class="outerWrapper">
 	<!-- @start .container -->
