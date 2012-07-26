@@ -1,7 +1,16 @@
-<html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="utf8" />
-    <title>無標題文件</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<!-- TemplateBeginEditable name="doctitle" -->
+	<title>Dorm-net 119</title>
+	<!-- TemplateEndEditable -->
+	<!-- TemplateBeginEditable name="head" -->
+	<!-- TemplateEndEditable -->
+	<link href="./css/main.css" rel="stylesheet" type="text/css" />
+	<!-- Include JavaScripts -->
+	<script type="text/javascript" src="./scripts/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="./scripts/main.js"></script>
     <style type="text/css">
 	.msgtable 
 	{    
@@ -34,6 +43,14 @@
 </head>
 
 <body>
+<canvas height="300px">
+	<p>Your browser doesn't support HTML5. Try using Firefox or Chrome.</p>
+</canvas>
+<script type="text/javascript" src="./scripts/bg.js"></script>
+<div class="header" style="width:1000px; height:200px;">
+			<a href="./01_1.php"><img src="./images/banner.png" alt="Dormnet119 home" name="banner" /></a>
+		<!-- end .header -->
+		</div>
     <div style="position:fixed; left:0%; height:100%; width:30%; float:left">
         <p align="center">留言板</p>
         <form method="post">
